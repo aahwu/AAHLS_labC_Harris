@@ -1,6 +1,6 @@
 # Notion for users
 ## Steps for reproduction
-1. Download and unzip files
+1. Download and unzip files (*may need to ignore some files)
 2. Open Vitis HLS
 3. Click File -> Open prject...
 4. Choose "hls_harris_prj"
