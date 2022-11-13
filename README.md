@@ -1,3 +1,16 @@
+# Notion for users
+## Steps for reproduction
+1. Download and unzip files
+2. Open Vitis HLS
+3. Click File -> Open prject...
+4. Choose "hls_harris_prj"
+5. Run csim, synthesis, cosim
+
+## Project setting
+- Device: xc7z020-clg400-1
+- Tclk: 6ns
+
+# Problem statement
 ## Repository Tree
 ```
 .
