@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="harris.cpp" path="C:\Users\ShaneWu\OneDrive\Desktop\Documents\NTU\HLS\labC\labC_Harris\harris.cpp"/>
+    <originFiles name="harris.h" path="C:\Users\ShaneWu\OneDrive\Desktop\Documents\NTU\HLS\labC\labC_Harris\harris.h"/>
+  </source>
+  <testbench>
+    <originFiles name="harris_test.cpp" path="C:\Users\ShaneWu\OneDrive\Desktop\Documents\NTU\HLS\labC\labC_Harris\harris_test.cpp"/>
+    <originFiles name="dst.txt" path="C:\Users\ShaneWu\OneDrive\Desktop\Documents\NTU\HLS\labC\labC_Harris\dst.txt"/>
+    <originFiles name="src.txt" path="C:\Users\ShaneWu\OneDrive\Desktop\Documents\NTU\HLS\labC\labC_Harris\src.txt"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

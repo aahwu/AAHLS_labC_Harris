@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SYN 201-103] Legalizing function name 'filterSingle.2' to 'filterSingle_2'." projectName="hls_harris_prj" solutionName="solution1" date="2022-11-13T19:18:30.474+0800" type="Warning"/>
+        <logs message="WARNING: [SYN 201-103] Legalizing function name 'filterSingle.1' to 'filterSingle_1'." projectName="hls_harris_prj" solutionName="solution1" date="2022-11-13T19:18:30.435+0800" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rowBuffer' in function 'filterSingle' (harris.cpp:254:16)." projectName="hls_harris_prj" solutionName="solution1" date="2022-11-13T19:18:29.350+0800" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rowBuffer' in function 'filterSingle.1' (harris.cpp:254:16)." projectName="hls_harris_prj" solutionName="solution1" date="2022-11-13T19:18:29.294+0800" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'rowBuffer' in function 'filterSingle.2' (harris.cpp:254:16)." projectName="hls_harris_prj" solutionName="solution1" date="2022-11-13T19:18:29.287+0800" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

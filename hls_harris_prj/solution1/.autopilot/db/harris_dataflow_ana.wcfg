@@ -1,0 +1,1222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="harris.wdb" id="1">
+         <top_modules>
+            <top_module name="apa_harris_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0ns"></ZoomStartTime>
+      <ZoomEndTime time="2000ns"></ZoomEndTime>
+      <Cursor1Time time="0ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject type="group" fp_name="HLS Process Summary Group">
+      <obj_property name="label">HLS Process Summary</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="/apatb_harris_top/AESL_inst_harris//AESL_inst_harris_activity">
+         <obj_property name="label">AESL_inst_harris_activity</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="UseFullPath">true</obj_property>
+         <obj_property name="ElementShortName">AESL_inst_harris_activity</obj_property>
+         <obj_property name="ObjectShortName">AESL_inst_harris_activity</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+         <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">turquoise</obj_property>
+         <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+         <obj_property name="Render_Data">/apatb_harris_top/AESL_inst_harris//AESL_inst_harris_activity.dataflowTxWaveData.Cycles</obj_property>
+         <obj_property name="Value_Data">/apatb_harris_top/AESL_inst_harris//AESL_inst_harris_activity.dataflowTxWaveData.OutStanding</obj_property>
+         <obj_property name="Detail_Data">/apatb_harris_top/AESL_inst_harris//AESL_inst_harris_activity.dataflowTxTooltipData</obj_property>
+         <wvobject type="group" fp_name="/apatb_harris_top/AESL_inst_harris/entry_proc_U0/entry_proc_U0_activity">
+            <obj_property name="label">entry_proc_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">entry_proc_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">entry_proc_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_harris_top/AESL_inst_harris/entry_proc_U0/entry_proc_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_harris_top/AESL_inst_harris/entry_proc_U0/entry_proc_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_harris_top/AESL_inst_harris/entry_proc_U0/entry_proc_U0_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_harris_top/AESL_inst_harris/read_input_U0/read_input_U0_activity">
+            <obj_property name="label">read_input_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">read_input_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">read_input_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_harris_top/AESL_inst_harris/read_input_U0/read_input_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_harris_top/AESL_inst_harris/read_input_U0/read_input_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_harris_top/AESL_inst_harris/read_input_U0/read_input_U0_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_harris_top/AESL_inst_harris/sobel_U0/sobel_U0_activity">
+            <obj_property name="label">sobel_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">sobel_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">sobel_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_harris_top/AESL_inst_harris/sobel_U0/sobel_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_harris_top/AESL_inst_harris/sobel_U0/sobel_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_harris_top/AESL_inst_harris/sobel_U0/sobel_U0_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filter_U0_activity">
+            <obj_property name="label">filter_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">filter_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">filter_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_harris_top/AESL_inst_harris/filter_U0/filter_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_harris_top/AESL_inst_harris/filter_U0/filter_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_harris_top/AESL_inst_harris/filter_U0/filter_U0_activity.dataflowTxTooltipData</obj_property>
+            <wvobject type="group" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_U0/filterSingle_U0_activity">
+               <obj_property name="label">filterSingle_U0_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">filterSingle_U0_activity</obj_property>
+               <obj_property name="ObjectShortName">filterSingle_U0_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_U0/filterSingle_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_U0/filterSingle_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_U0/filterSingle_U0_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+            <wvobject type="group" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_1_U0/filterSingle_1_U0_activity">
+               <obj_property name="label">filterSingle_1_U0_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">filterSingle_1_U0_activity</obj_property>
+               <obj_property name="ObjectShortName">filterSingle_1_U0_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_1_U0/filterSingle_1_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_1_U0/filterSingle_1_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_1_U0/filterSingle_1_U0_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+            <wvobject type="group" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_2_U0/filterSingle_2_U0_activity">
+               <obj_property name="label">filterSingle_2_U0_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">filterSingle_2_U0_activity</obj_property>
+               <obj_property name="ObjectShortName">filterSingle_2_U0_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_2_U0/filterSingle_2_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_2_U0/filterSingle_2_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_2_U0/filterSingle_2_U0_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/response_U0_activity">
+            <obj_property name="label">response_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">response_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">response_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_harris_top/AESL_inst_harris/response_U0/response_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_harris_top/AESL_inst_harris/response_U0/response_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_harris_top/AESL_inst_harris/response_U0/response_U0_activity.dataflowTxTooltipData</obj_property>
+            <wvobject type="group" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/grp_response_Pipeline_VITIS_LOOP_325_1_VITIS_LOOP_326_2_fu_76/grp_response_Pipeline_VITIS_LOOP_325_1_VITIS_LOOP_326_2_fu_76_activity">
+               <obj_property name="label">grp_response_Pipeline_VITIS_LOOP_325_1_VITIS_LOOP_326_2_fu_76_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_response_Pipeline_VITIS_LOOP_325_1_VITIS_LOOP_326_2_fu_76_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_response_Pipeline_VITIS_LOOP_325_1_VITIS_LOOP_326_2_fu_76_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_harris_top/AESL_inst_harris/response_U0/grp_response_Pipeline_VITIS_LOOP_325_1_VITIS_LOOP_326_2_fu_76/grp_response_Pipeline_VITIS_LOOP_325_1_VITIS_LOOP_326_2_fu_76_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_harris_top/AESL_inst_harris/response_U0/grp_response_Pipeline_VITIS_LOOP_325_1_VITIS_LOOP_326_2_fu_76/grp_response_Pipeline_VITIS_LOOP_325_1_VITIS_LOOP_326_2_fu_76_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_harris_top/AESL_inst_harris/response_U0/grp_response_Pipeline_VITIS_LOOP_325_1_VITIS_LOOP_326_2_fu_76/grp_response_Pipeline_VITIS_LOOP_325_1_VITIS_LOOP_326_2_fu_76_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_harris_top/AESL_inst_harris/findCorner_U0/findCorner_U0_activity">
+            <obj_property name="label">findCorner_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">findCorner_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">findCorner_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_harris_top/AESL_inst_harris/findCorner_U0/findCorner_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_harris_top/AESL_inst_harris/findCorner_U0/findCorner_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_harris_top/AESL_inst_harris/findCorner_U0/findCorner_U0_activity.dataflowTxTooltipData</obj_property>
+            <wvobject type="group" fp_name="/apatb_harris_top/AESL_inst_harris/findCorner_U0/grp_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2_fu_22/grp_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2_fu_22_activity">
+               <obj_property name="label">grp_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2_fu_22_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2_fu_22_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2_fu_22_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_harris_top/AESL_inst_harris/findCorner_U0/grp_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2_fu_22/grp_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2_fu_22_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_harris_top/AESL_inst_harris/findCorner_U0/grp_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2_fu_22/grp_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2_fu_22_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_harris_top/AESL_inst_harris/findCorner_U0/grp_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2_fu_22/grp_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2_fu_22_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+            <wvobject type="group" fp_name="/apatb_harris_top/AESL_inst_harris/findCorner_U0/grp_findCorner_Pipeline_VITIS_LOOP_452_9_fu_30/grp_findCorner_Pipeline_VITIS_LOOP_452_9_fu_30_activity">
+               <obj_property name="label">grp_findCorner_Pipeline_VITIS_LOOP_452_9_fu_30_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_findCorner_Pipeline_VITIS_LOOP_452_9_fu_30_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_findCorner_Pipeline_VITIS_LOOP_452_9_fu_30_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_harris_top/AESL_inst_harris/findCorner_U0/grp_findCorner_Pipeline_VITIS_LOOP_452_9_fu_30/grp_findCorner_Pipeline_VITIS_LOOP_452_9_fu_30_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_harris_top/AESL_inst_harris/findCorner_U0/grp_findCorner_Pipeline_VITIS_LOOP_452_9_fu_30/grp_findCorner_Pipeline_VITIS_LOOP_452_9_fu_30_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_harris_top/AESL_inst_harris/findCorner_U0/grp_findCorner_Pipeline_VITIS_LOOP_452_9_fu_30/grp_findCorner_Pipeline_VITIS_LOOP_452_9_fu_30_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_harris_top/AESL_inst_harris/write_result_U0/write_result_U0_activity">
+            <obj_property name="label">write_result_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">write_result_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">write_result_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_harris_top/AESL_inst_harris/write_result_U0/write_result_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_harris_top/AESL_inst_harris/write_result_U0/write_result_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_harris_top/AESL_inst_harris/write_result_U0/write_result_U0_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="protoinst" fp_name="/apatb_harris_top/AESL_inst_harris//AESL_inst_harris_activity">
+      <obj_property name="ElementShortName">AESL_inst_harris_activity</obj_property>
+      <obj_property name="ObjectShortName">AESL_inst_harris_activity</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="AESL_inst_harris_group">
+      <obj_property name="label">AESL_inst_harris</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="protoinst" fp_name="/apatb_harris_top/AESL_inst_harris/entry_proc_U0/entry_proc_U0_activity">
+         <obj_property name="ElementShortName">entry_proc_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">entry_proc_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_harris_top/AESL_inst_harris/read_input_U0/read_input_U0_activity">
+         <obj_property name="ElementShortName">read_input_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">read_input_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_harris_top/AESL_inst_harris/sobel_U0/sobel_U0_activity">
+         <obj_property name="ElementShortName">sobel_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">sobel_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filter_U0_activity">
+         <obj_property name="ElementShortName">filter_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">filter_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/response_U0_activity">
+         <obj_property name="ElementShortName">response_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">response_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_harris_top/AESL_inst_harris/findCorner_U0/findCorner_U0_activity">
+         <obj_property name="ElementShortName">findCorner_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">findCorner_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_harris_top/AESL_inst_harris/write_result_U0/write_result_U0_activity">
+         <obj_property name="ElementShortName">write_result_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">write_result_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="AESL_inst_harris_Handshake_group">
+         <obj_property name="label">Block-level handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/ap_start">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/ap_ready">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/ap_done">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/ap_continue">
+            <obj_property name="ElementShortName">ap_continue</obj_property>
+            <obj_property name="ObjectShortName">ap_continue</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="entry_proc_U0_group">
+         <obj_property name="label">entry_proc_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="entry_proc_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="entry_proc_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/entry_proc_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/entry_proc_U0/real_start">
+               <obj_property name="ElementShortName">real_start</obj_property>
+               <obj_property name="ObjectShortName">real_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/entry_proc_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/entry_proc_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/entry_proc_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="entry_proc_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="alpha_c_group">
+               <obj_property name="label">alpha_c(alpha_c_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/entry_proc_U0/alpha_c_blk_n">
+                  <obj_property name="ElementShortName">alpha_c_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">alpha_c_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/entry_proc_U0/alpha_c_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/entry_proc_U0/alpha_c_full_n">
+                  <obj_property name="ElementShortName">alpha_c_full_n</obj_property>
+                  <obj_property name="ObjectShortName">alpha_c_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/entry_proc_U0/alpha_c_write">
+                  <obj_property name="ElementShortName">alpha_c_write</obj_property>
+                  <obj_property name="ObjectShortName">alpha_c_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="read_input_U0_group">
+         <obj_property name="label">read_input_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="read_input_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="imgSrc_group">
+               <obj_property name="label">imgSrc(PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/read_input_U0/imgSrc_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/read_input_U0/imgSrc_q0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/read_input_U0/imgSrc_ce0">
+                  <obj_property name="ElementShortName">imgSrc_ce0</obj_property>
+                  <obj_property name="ObjectShortName">imgSrc_ce0</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/read_input_U0/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+                  <obj_property name="label">ap_ready(t_read)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="read_input_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/read_input_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/read_input_U0/real_start">
+               <obj_property name="ElementShortName">real_start</obj_property>
+               <obj_property name="ObjectShortName">real_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/read_input_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/read_input_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/read_input_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="read_input_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="inStream_group">
+               <obj_property name="label">inStream(inStream_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/read_input_U0/inStream_blk_n">
+                  <obj_property name="ElementShortName">inStream_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">inStream_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/read_input_U0/inStream_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/read_input_U0/inStream_full_n">
+                  <obj_property name="ElementShortName">inStream_full_n</obj_property>
+                  <obj_property name="ObjectShortName">inStream_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/read_input_U0/inStream_write">
+                  <obj_property name="ElementShortName">inStream_write</obj_property>
+                  <obj_property name="ObjectShortName">inStream_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="sobel_U0_group">
+         <obj_property name="label">sobel_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="sobel_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="inStream_group">
+               <obj_property name="label">inStream(inStream_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/sobel_U0/inStream_blk_n">
+                  <obj_property name="ElementShortName">inStream_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">inStream_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/sobel_U0/inStream_dout">
+                  <obj_property name="ElementShortName">inStream_dout[255:0]</obj_property>
+                  <obj_property name="ObjectShortName">inStream_dout[255:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/sobel_U0/inStream_empty_n">
+                  <obj_property name="ElementShortName">inStream_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">inStream_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/sobel_U0/inStream_read">
+                  <obj_property name="ElementShortName">inStream_read</obj_property>
+                  <obj_property name="ObjectShortName">inStream_read</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="sobel_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/sobel_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/sobel_U0/real_start">
+               <obj_property name="ElementShortName">real_start</obj_property>
+               <obj_property name="ObjectShortName">real_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/sobel_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/sobel_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/sobel_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="sobel_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="GxxStream_group">
+               <obj_property name="label">GxxStream(GxxStream_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/sobel_U0/GxxStream_blk_n">
+                  <obj_property name="ElementShortName">GxxStream_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">GxxStream_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/sobel_U0/GxxStream_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/sobel_U0/GxxStream_full_n">
+                  <obj_property name="ElementShortName">GxxStream_full_n</obj_property>
+                  <obj_property name="ObjectShortName">GxxStream_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/sobel_U0/GxxStream_write">
+                  <obj_property name="ElementShortName">GxxStream_write</obj_property>
+                  <obj_property name="ObjectShortName">GxxStream_write</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="GyyStream_group">
+               <obj_property name="label">GyyStream(GyyStream_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/sobel_U0/GyyStream_blk_n">
+                  <obj_property name="ElementShortName">GyyStream_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">GyyStream_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/sobel_U0/GyyStream_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/sobel_U0/GyyStream_full_n">
+                  <obj_property name="ElementShortName">GyyStream_full_n</obj_property>
+                  <obj_property name="ObjectShortName">GyyStream_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/sobel_U0/GyyStream_write">
+                  <obj_property name="ElementShortName">GyyStream_write</obj_property>
+                  <obj_property name="ObjectShortName">GyyStream_write</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="GxyStream_group">
+               <obj_property name="label">GxyStream(GxyStream_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/sobel_U0/GxyStream_blk_n">
+                  <obj_property name="ElementShortName">GxyStream_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">GxyStream_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/sobel_U0/GxyStream_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/sobel_U0/GxyStream_full_n">
+                  <obj_property name="ElementShortName">GxyStream_full_n</obj_property>
+                  <obj_property name="ObjectShortName">GxyStream_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/sobel_U0/GxyStream_write">
+                  <obj_property name="ElementShortName">GxyStream_write</obj_property>
+                  <obj_property name="ObjectShortName">GxyStream_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="filter_U0_group">
+         <obj_property name="label">filter_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="protoinst" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_U0/filterSingle_U0_activity">
+            <obj_property name="ElementShortName">filterSingle_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">filterSingle_U0_activity</obj_property>
+         </wvobject>
+         <wvobject type="protoinst" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_1_U0/filterSingle_1_U0_activity">
+            <obj_property name="ElementShortName">filterSingle_1_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">filterSingle_1_U0_activity</obj_property>
+         </wvobject>
+         <wvobject type="protoinst" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_2_U0/filterSingle_2_U0_activity">
+            <obj_property name="ElementShortName">filterSingle_2_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">filterSingle_2_U0_activity</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="filter_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="GxxStream_group">
+               <obj_property name="label">GxxStream(GxxStream_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/GxxStream_dout">
+                  <obj_property name="ElementShortName">GxxStream_dout[255:0]</obj_property>
+                  <obj_property name="ObjectShortName">GxxStream_dout[255:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/GxxStream_empty_n">
+                  <obj_property name="ElementShortName">GxxStream_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">GxxStream_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/GxxStream_read">
+                  <obj_property name="ElementShortName">GxxStream_read</obj_property>
+                  <obj_property name="ObjectShortName">GxxStream_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="GyyStream_group">
+               <obj_property name="label">GyyStream(GyyStream_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/GyyStream_dout">
+                  <obj_property name="ElementShortName">GyyStream_dout[255:0]</obj_property>
+                  <obj_property name="ObjectShortName">GyyStream_dout[255:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/GyyStream_empty_n">
+                  <obj_property name="ElementShortName">GyyStream_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">GyyStream_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/GyyStream_read">
+                  <obj_property name="ElementShortName">GyyStream_read</obj_property>
+                  <obj_property name="ObjectShortName">GyyStream_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="GxyStream_group">
+               <obj_property name="label">GxyStream(GxyStream_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/GxyStream_dout">
+                  <obj_property name="ElementShortName">GxyStream_dout[255:0]</obj_property>
+                  <obj_property name="ObjectShortName">GxyStream_dout[255:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/GxyStream_empty_n">
+                  <obj_property name="ElementShortName">GxyStream_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">GxyStream_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/GxyStream_read">
+                  <obj_property name="ElementShortName">GxyStream_read</obj_property>
+                  <obj_property name="ObjectShortName">GxyStream_read</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="filter_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="filter_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="SxxStream_group">
+               <obj_property name="label">SxxStream(SxxStream_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/SxxStream_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/SxxStream_full_n">
+                  <obj_property name="ElementShortName">SxxStream_full_n</obj_property>
+                  <obj_property name="ObjectShortName">SxxStream_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/SxxStream_write">
+                  <obj_property name="ElementShortName">SxxStream_write</obj_property>
+                  <obj_property name="ObjectShortName">SxxStream_write</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="SyyStream_group">
+               <obj_property name="label">SyyStream(SyyStream_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/SyyStream_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/SyyStream_full_n">
+                  <obj_property name="ElementShortName">SyyStream_full_n</obj_property>
+                  <obj_property name="ObjectShortName">SyyStream_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/SyyStream_write">
+                  <obj_property name="ElementShortName">SyyStream_write</obj_property>
+                  <obj_property name="ObjectShortName">SyyStream_write</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="SxyStream_group">
+               <obj_property name="label">SxyStream(SxyStream_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/SxyStream_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/SxyStream_full_n">
+                  <obj_property name="ElementShortName">SxyStream_full_n</obj_property>
+                  <obj_property name="ObjectShortName">SxyStream_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/SxyStream_write">
+                  <obj_property name="ElementShortName">SxyStream_write</obj_property>
+                  <obj_property name="ObjectShortName">SxyStream_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="filterSingle_U0_group">
+            <obj_property name="label">filterSingle_U0</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="filterSingle_U0_Input_group">
+               <obj_property name="label">Input Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="group" fp_name="GxxStream_group">
+                  <obj_property name="label">GxxStream(GxxStream_U, FIFO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_U0/GxxStream_blk_n">
+                     <obj_property name="ElementShortName">GxxStream_blk_n</obj_property>
+                     <obj_property name="ObjectShortName">GxxStream_blk_n</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_U0/GxxStream_dout">
+                     <obj_property name="ElementShortName">GxxStream_dout[255:0]</obj_property>
+                     <obj_property name="ObjectShortName">GxxStream_dout[255:0]</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_U0/GxxStream_empty_n">
+                     <obj_property name="ElementShortName">GxxStream_empty_n</obj_property>
+                     <obj_property name="ObjectShortName">GxxStream_empty_n</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_U0/GxxStream_read">
+                     <obj_property name="ElementShortName">GxxStream_read</obj_property>
+                     <obj_property name="ObjectShortName">GxxStream_read</obj_property>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="filterSingle_U0_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_U0/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_U0/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_U0/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_U0/ap_continue">
+                  <obj_property name="ElementShortName">ap_continue</obj_property>
+                  <obj_property name="ObjectShortName">ap_continue</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="filterSingle_U0_Output_group">
+               <obj_property name="label">Output Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="group" fp_name="SxxStream_group">
+                  <obj_property name="label">SxxStream(SxxStream_U, FIFO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_U0/SxxStream_blk_n">
+                     <obj_property name="ElementShortName">SxxStream_blk_n</obj_property>
+                     <obj_property name="ObjectShortName">SxxStream_blk_n</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_U0/SxxStream_din">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_U0/SxxStream_full_n">
+                     <obj_property name="ElementShortName">SxxStream_full_n</obj_property>
+                     <obj_property name="ObjectShortName">SxxStream_full_n</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_U0/SxxStream_write">
+                     <obj_property name="ElementShortName">SxxStream_write</obj_property>
+                     <obj_property name="ObjectShortName">SxxStream_write</obj_property>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="filterSingle_1_U0_group">
+            <obj_property name="label">filterSingle_1_U0</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="filterSingle_1_U0_Input_group">
+               <obj_property name="label">Input Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="group" fp_name="GyyStream_group">
+                  <obj_property name="label">GyyStream(GyyStream_U, FIFO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_1_U0/GyyStream_blk_n">
+                     <obj_property name="ElementShortName">GyyStream_blk_n</obj_property>
+                     <obj_property name="ObjectShortName">GyyStream_blk_n</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_1_U0/GyyStream_dout">
+                     <obj_property name="ElementShortName">GyyStream_dout[255:0]</obj_property>
+                     <obj_property name="ObjectShortName">GyyStream_dout[255:0]</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_1_U0/GyyStream_empty_n">
+                     <obj_property name="ElementShortName">GyyStream_empty_n</obj_property>
+                     <obj_property name="ObjectShortName">GyyStream_empty_n</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_1_U0/GyyStream_read">
+                     <obj_property name="ElementShortName">GyyStream_read</obj_property>
+                     <obj_property name="ObjectShortName">GyyStream_read</obj_property>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="filterSingle_1_U0_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_1_U0/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_1_U0/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_1_U0/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_1_U0/ap_continue">
+                  <obj_property name="ElementShortName">ap_continue</obj_property>
+                  <obj_property name="ObjectShortName">ap_continue</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="filterSingle_1_U0_Output_group">
+               <obj_property name="label">Output Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="group" fp_name="SyyStream_group">
+                  <obj_property name="label">SyyStream(SyyStream_U, FIFO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_1_U0/SyyStream_blk_n">
+                     <obj_property name="ElementShortName">SyyStream_blk_n</obj_property>
+                     <obj_property name="ObjectShortName">SyyStream_blk_n</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_1_U0/SyyStream_din">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_1_U0/SyyStream_full_n">
+                     <obj_property name="ElementShortName">SyyStream_full_n</obj_property>
+                     <obj_property name="ObjectShortName">SyyStream_full_n</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_1_U0/SyyStream_write">
+                     <obj_property name="ElementShortName">SyyStream_write</obj_property>
+                     <obj_property name="ObjectShortName">SyyStream_write</obj_property>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="filterSingle_2_U0_group">
+            <obj_property name="label">filterSingle_2_U0</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="filterSingle_2_U0_Input_group">
+               <obj_property name="label">Input Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="group" fp_name="GxyStream_group">
+                  <obj_property name="label">GxyStream(GxyStream_U, FIFO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_2_U0/GxyStream_blk_n">
+                     <obj_property name="ElementShortName">GxyStream_blk_n</obj_property>
+                     <obj_property name="ObjectShortName">GxyStream_blk_n</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_2_U0/GxyStream_dout">
+                     <obj_property name="ElementShortName">GxyStream_dout[255:0]</obj_property>
+                     <obj_property name="ObjectShortName">GxyStream_dout[255:0]</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_2_U0/GxyStream_empty_n">
+                     <obj_property name="ElementShortName">GxyStream_empty_n</obj_property>
+                     <obj_property name="ObjectShortName">GxyStream_empty_n</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_2_U0/GxyStream_read">
+                     <obj_property name="ElementShortName">GxyStream_read</obj_property>
+                     <obj_property name="ObjectShortName">GxyStream_read</obj_property>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="filterSingle_2_U0_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_2_U0/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_2_U0/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_2_U0/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_2_U0/ap_continue">
+                  <obj_property name="ElementShortName">ap_continue</obj_property>
+                  <obj_property name="ObjectShortName">ap_continue</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="filterSingle_2_U0_Output_group">
+               <obj_property name="label">Output Channels</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="group" fp_name="SxyStream_group">
+                  <obj_property name="label">SxyStream(SxyStream_U, FIFO)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_2_U0/SxyStream_blk_n">
+                     <obj_property name="ElementShortName">SxyStream_blk_n</obj_property>
+                     <obj_property name="ObjectShortName">SxyStream_blk_n</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_2_U0/SxyStream_din">
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_2_U0/SxyStream_full_n">
+                     <obj_property name="ElementShortName">SxyStream_full_n</obj_property>
+                     <obj_property name="ObjectShortName">SxyStream_full_n</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/filter_U0/filterSingle_2_U0/SxyStream_write">
+                     <obj_property name="ElementShortName">SxyStream_write</obj_property>
+                     <obj_property name="ObjectShortName">SxyStream_write</obj_property>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="response_U0_group">
+         <obj_property name="label">response_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="protoinst" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/grp_response_Pipeline_VITIS_LOOP_325_1_VITIS_LOOP_326_2_fu_76/grp_response_Pipeline_VITIS_LOOP_325_1_VITIS_LOOP_326_2_fu_76_activity">
+            <obj_property name="ElementShortName">grp_response_Pipeline_VITIS_LOOP_325_1_VITIS_LOOP_326_2_fu_76_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_response_Pipeline_VITIS_LOOP_325_1_VITIS_LOOP_326_2_fu_76_activity</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="response_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="alpha_group">
+               <obj_property name="label">alpha(alpha_c_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/alpha_blk_n">
+                  <obj_property name="ElementShortName">alpha_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">alpha_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/alpha_dout">
+                  <obj_property name="ElementShortName">alpha_dout[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">alpha_dout[63:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/alpha_empty_n">
+                  <obj_property name="ElementShortName">alpha_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">alpha_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/alpha_read">
+                  <obj_property name="ElementShortName">alpha_read</obj_property>
+                  <obj_property name="ObjectShortName">alpha_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="SxxStream_group">
+               <obj_property name="label">SxxStream(SxxStream_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/SxxStream_dout">
+                  <obj_property name="ElementShortName">SxxStream_dout[255:0]</obj_property>
+                  <obj_property name="ObjectShortName">SxxStream_dout[255:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/SxxStream_empty_n">
+                  <obj_property name="ElementShortName">SxxStream_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">SxxStream_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/SxxStream_read">
+                  <obj_property name="ElementShortName">SxxStream_read</obj_property>
+                  <obj_property name="ObjectShortName">SxxStream_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="SyyStream_group">
+               <obj_property name="label">SyyStream(SyyStream_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/SyyStream_dout">
+                  <obj_property name="ElementShortName">SyyStream_dout[255:0]</obj_property>
+                  <obj_property name="ObjectShortName">SyyStream_dout[255:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/SyyStream_empty_n">
+                  <obj_property name="ElementShortName">SyyStream_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">SyyStream_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/SyyStream_read">
+                  <obj_property name="ElementShortName">SyyStream_read</obj_property>
+                  <obj_property name="ObjectShortName">SyyStream_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="SxyStream_group">
+               <obj_property name="label">SxyStream(SxyStream_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/SxyStream_dout">
+                  <obj_property name="ElementShortName">SxyStream_dout[255:0]</obj_property>
+                  <obj_property name="ObjectShortName">SxyStream_dout[255:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/SxyStream_empty_n">
+                  <obj_property name="ElementShortName">SxyStream_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">SxyStream_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/SxyStream_read">
+                  <obj_property name="ElementShortName">SxyStream_read</obj_property>
+                  <obj_property name="ObjectShortName">SxyStream_read</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="response_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/real_start">
+               <obj_property name="ElementShortName">real_start</obj_property>
+               <obj_property name="ObjectShortName">real_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="response_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="RStream_group">
+               <obj_property name="label">RStream(RStream_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/RStream_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/RStream_full_n">
+                  <obj_property name="ElementShortName">RStream_full_n</obj_property>
+                  <obj_property name="ObjectShortName">RStream_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/RStream_write">
+                  <obj_property name="ElementShortName">RStream_write</obj_property>
+                  <obj_property name="ObjectShortName">RStream_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_response_Pipeline_VITIS_LOOP_325_1_VITIS_LOOP_326_2_fu_76_group">
+            <obj_property name="label">grp_response_Pipeline_VITIS_LOOP_325_1_VITIS_LOOP_326_2_fu_76</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="grp_response_Pipeline_VITIS_LOOP_325_1_VITIS_LOOP_326_2_fu_76_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/grp_response_Pipeline_VITIS_LOOP_325_1_VITIS_LOOP_326_2_fu_76/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/grp_response_Pipeline_VITIS_LOOP_325_1_VITIS_LOOP_326_2_fu_76/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/response_U0/grp_response_Pipeline_VITIS_LOOP_325_1_VITIS_LOOP_326_2_fu_76/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="findCorner_U0_group">
+         <obj_property name="label">findCorner_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="protoinst" fp_name="/apatb_harris_top/AESL_inst_harris/findCorner_U0/grp_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2_fu_22/grp_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2_fu_22_activity">
+            <obj_property name="ElementShortName">grp_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2_fu_22_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2_fu_22_activity</obj_property>
+         </wvobject>
+         <wvobject type="protoinst" fp_name="/apatb_harris_top/AESL_inst_harris/findCorner_U0/grp_findCorner_Pipeline_VITIS_LOOP_452_9_fu_30/grp_findCorner_Pipeline_VITIS_LOOP_452_9_fu_30_activity">
+            <obj_property name="ElementShortName">grp_findCorner_Pipeline_VITIS_LOOP_452_9_fu_30_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_findCorner_Pipeline_VITIS_LOOP_452_9_fu_30_activity</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="findCorner_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="RStream_group">
+               <obj_property name="label">RStream(RStream_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/findCorner_U0/RStream_dout">
+                  <obj_property name="ElementShortName">RStream_dout[255:0]</obj_property>
+                  <obj_property name="ObjectShortName">RStream_dout[255:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/findCorner_U0/RStream_empty_n">
+                  <obj_property name="ElementShortName">RStream_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">RStream_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/findCorner_U0/RStream_read">
+                  <obj_property name="ElementShortName">RStream_read</obj_property>
+                  <obj_property name="ObjectShortName">RStream_read</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="findCorner_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/findCorner_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/findCorner_U0/real_start">
+               <obj_property name="ElementShortName">real_start</obj_property>
+               <obj_property name="ObjectShortName">real_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/findCorner_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/findCorner_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/findCorner_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="findCorner_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="outStream_group">
+               <obj_property name="label">outStream(outStream_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/findCorner_U0/outStream_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/findCorner_U0/outStream_full_n">
+                  <obj_property name="ElementShortName">outStream_full_n</obj_property>
+                  <obj_property name="ObjectShortName">outStream_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/findCorner_U0/outStream_write">
+                  <obj_property name="ElementShortName">outStream_write</obj_property>
+                  <obj_property name="ObjectShortName">outStream_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2_fu_22_group">
+            <obj_property name="label">grp_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2_fu_22</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="grp_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2_fu_22_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/findCorner_U0/grp_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2_fu_22/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/findCorner_U0/grp_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2_fu_22/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/findCorner_U0/grp_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2_fu_22/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_findCorner_Pipeline_VITIS_LOOP_452_9_fu_30_group">
+            <obj_property name="label">grp_findCorner_Pipeline_VITIS_LOOP_452_9_fu_30</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="grp_findCorner_Pipeline_VITIS_LOOP_452_9_fu_30_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/findCorner_U0/grp_findCorner_Pipeline_VITIS_LOOP_452_9_fu_30/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/findCorner_U0/grp_findCorner_Pipeline_VITIS_LOOP_452_9_fu_30/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/findCorner_U0/grp_findCorner_Pipeline_VITIS_LOOP_452_9_fu_30/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="write_result_U0_group">
+         <obj_property name="label">write_result_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="write_result_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="outStream_group">
+               <obj_property name="label">outStream(outStream_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/write_result_U0/outStream_blk_n">
+                  <obj_property name="ElementShortName">outStream_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">outStream_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/write_result_U0/outStream_dout">
+                  <obj_property name="ElementShortName">outStream_dout[255:0]</obj_property>
+                  <obj_property name="ObjectShortName">outStream_dout[255:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/write_result_U0/outStream_empty_n">
+                  <obj_property name="ElementShortName">outStream_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">outStream_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/write_result_U0/outStream_read">
+                  <obj_property name="ElementShortName">outStream_read</obj_property>
+                  <obj_property name="ObjectShortName">outStream_read</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="write_result_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/write_result_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/write_result_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/write_result_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/write_result_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="write_result_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="imgDst_group">
+               <obj_property name="label">imgDst(PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/write_result_U0/imgDst_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/write_result_U0/imgDst_d0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/write_result_U0/imgDst_ce0">
+                  <obj_property name="ElementShortName">imgDst_ce0</obj_property>
+                  <obj_property name="ObjectShortName">imgDst_ce0</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/write_result_U0/imgDst_we0">
+                  <obj_property name="ElementShortName">imgDst_we0</obj_property>
+                  <obj_property name="ObjectShortName">imgDst_we0</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/write_result_U0/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+                  <obj_property name="label">ap_done(i_write)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_harris_top/AESL_inst_harris/write_result_U0/ap_continue">
+                  <obj_property name="ElementShortName">ap_continue</obj_property>
+                  <obj_property name="ObjectShortName">ap_continue</obj_property>
+                  <obj_property name="label">ap_continue(i_full_n)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

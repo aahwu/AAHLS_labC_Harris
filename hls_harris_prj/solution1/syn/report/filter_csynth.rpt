@@ -1,0 +1,169 @@
+
+
+================================================================
+== Vitis HLS Report for 'filter'
+================================================================
+* Date:           Sun Nov 13 19:18:44 2022
+
+* Version:        2022.1 (Build 3526262 on Mon Apr 18 15:48:16 MDT 2022)
+* Project:        hls_harris_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  6.00 ns|  4.371 ns|     1.62 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+------+------+----------+
+    |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline |
+    |   min   |   max   |    min    |    max    |  min |  max |   Type   |
+    +---------+---------+-----------+-----------+------+------+----------+
+    |     2188|     2188|  13.128 us|  13.128 us|  2189|  2189|  dataflow|
+    +---------+---------+-----------+-----------+------+------+----------+
+
+    + Detail: 
+        * Instance: 
+        +-------------------+----------------+---------+---------+-----------+-----------+------+------+---------+
+        |                   |                |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
+        |      Instance     |     Module     |   min   |   max   |    min    |    max    |  min |  max |   Type  |
+        +-------------------+----------------+---------+---------+-----------+-----------+------+------+---------+
+        |filterSingle_U0    |filterSingle    |     2188|     2188|  13.128 us|  13.128 us|  2188|  2188|       no|
+        |filterSingle_1_U0  |filterSingle_1  |     2188|     2188|  13.128 us|  13.128 us|  2188|  2188|       no|
+        |filterSingle_2_U0  |filterSingle_2  |     2188|     2188|  13.128 us|  13.128 us|  2188|  2188|       no|
+        +-------------------+----------------+---------+---------+-----------+-----------+------+------+---------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|     20|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |       66|    -|   25707|   9384|    0|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       -|     27|    -|
+|Register         |        -|    -|       3|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |       66|    0|   25710|   9431|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |       23|    0|      24|     17|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +-------------------+----------------+---------+----+------+------+-----+
+    |      Instance     |     Module     | BRAM_18K| DSP|  FF  |  LUT | URAM|
+    +-------------------+----------------+---------+----+------+------+-----+
+    |filterSingle_U0    |filterSingle    |       22|   0|  8569|  3128|    0|
+    |filterSingle_1_U0  |filterSingle_1  |       22|   0|  8569|  3128|    0|
+    |filterSingle_2_U0  |filterSingle_2  |       22|   0|  8569|  3128|    0|
+    +-------------------+----------------+---------+----+------+------+-----+
+    |Total              |                |       66|   0| 25707|  9384|    0|
+    +-------------------+----------------+---------+----+------+------+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +------------------------------------+----------+----+---+----+------------+------------+
+    |            Variable Name           | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +------------------------------------+----------+----+---+----+------------+------------+
+    |ap_idle                             |       and|   0|  0|   2|           1|           1|
+    |ap_sync_continue                    |       and|   0|  0|   2|           1|           1|
+    |ap_sync_done                        |       and|   0|  0|   2|           1|           1|
+    |ap_sync_ready                       |       and|   0|  0|   2|           1|           1|
+    |filterSingle_1_U0_ap_start          |       and|   0|  0|   2|           1|           1|
+    |filterSingle_2_U0_ap_start          |       and|   0|  0|   2|           1|           1|
+    |filterSingle_U0_ap_start            |       and|   0|  0|   2|           1|           1|
+    |ap_sync_filterSingle_1_U0_ap_ready  |        or|   0|  0|   2|           1|           1|
+    |ap_sync_filterSingle_2_U0_ap_ready  |        or|   0|  0|   2|           1|           1|
+    |ap_sync_filterSingle_U0_ap_ready    |        or|   0|  0|   2|           1|           1|
+    +------------------------------------+----------+----+---+----+------------+------------+
+    |Total                               |          |   0|  0|  20|          10|          10|
+    +------------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +----------------------------------------+----+-----------+-----+-----------+
+    |                  Name                  | LUT| Input Size| Bits| Total Bits|
+    +----------------------------------------+----+-----------+-----+-----------+
+    |ap_sync_reg_filterSingle_1_U0_ap_ready  |   9|          2|    1|          2|
+    |ap_sync_reg_filterSingle_2_U0_ap_ready  |   9|          2|    1|          2|
+    |ap_sync_reg_filterSingle_U0_ap_ready    |   9|          2|    1|          2|
+    +----------------------------------------+----+-----------+-----+-----------+
+    |Total                                   |  27|          6|    3|          6|
+    +----------------------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +----------------------------------------+---+----+-----+-----------+
+    |                  Name                  | FF| LUT| Bits| Const Bits|
+    +----------------------------------------+---+----+-----+-----------+
+    |ap_sync_reg_filterSingle_1_U0_ap_ready  |  1|   0|    1|          0|
+    |ap_sync_reg_filterSingle_2_U0_ap_ready  |  1|   0|    1|          0|
+    |ap_sync_reg_filterSingle_U0_ap_ready    |  1|   0|    1|          0|
+    +----------------------------------------+---+----+-----+-----------+
+    |Total                                   |  3|   0|    3|          0|
+    +----------------------------------------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-------------------+-----+-----+------------+--------------+--------------+
+|     RTL Ports     | Dir | Bits|  Protocol  | Source Object|    C Type    |
++-------------------+-----+-----+------------+--------------+--------------+
+|GxxStream_dout     |   in|  256|     ap_fifo|     GxxStream|       pointer|
+|GxxStream_empty_n  |   in|    1|     ap_fifo|     GxxStream|       pointer|
+|GxxStream_read     |  out|    1|     ap_fifo|     GxxStream|       pointer|
+|SxxStream_din      |  out|  256|     ap_fifo|     SxxStream|       pointer|
+|SxxStream_full_n   |   in|    1|     ap_fifo|     SxxStream|       pointer|
+|SxxStream_write    |  out|    1|     ap_fifo|     SxxStream|       pointer|
+|GyyStream_dout     |   in|  256|     ap_fifo|     GyyStream|       pointer|
+|GyyStream_empty_n  |   in|    1|     ap_fifo|     GyyStream|       pointer|
+|GyyStream_read     |  out|    1|     ap_fifo|     GyyStream|       pointer|
+|SyyStream_din      |  out|  256|     ap_fifo|     SyyStream|       pointer|
+|SyyStream_full_n   |   in|    1|     ap_fifo|     SyyStream|       pointer|
+|SyyStream_write    |  out|    1|     ap_fifo|     SyyStream|       pointer|
+|GxyStream_dout     |   in|  256|     ap_fifo|     GxyStream|       pointer|
+|GxyStream_empty_n  |   in|    1|     ap_fifo|     GxyStream|       pointer|
+|GxyStream_read     |  out|    1|     ap_fifo|     GxyStream|       pointer|
+|SxyStream_din      |  out|  256|     ap_fifo|     SxyStream|       pointer|
+|SxyStream_full_n   |   in|    1|     ap_fifo|     SxyStream|       pointer|
+|SxyStream_write    |  out|    1|     ap_fifo|     SxyStream|       pointer|
+|ap_clk             |   in|    1|  ap_ctrl_hs|        filter|  return value|
+|ap_rst             |   in|    1|  ap_ctrl_hs|        filter|  return value|
+|ap_start           |   in|    1|  ap_ctrl_hs|        filter|  return value|
+|ap_done            |  out|    1|  ap_ctrl_hs|        filter|  return value|
+|ap_ready           |  out|    1|  ap_ctrl_hs|        filter|  return value|
+|ap_idle            |  out|    1|  ap_ctrl_hs|        filter|  return value|
+|ap_continue        |   in|    1|  ap_ctrl_hs|        filter|  return value|
++-------------------+-----+-----+------------+--------------+--------------+
+

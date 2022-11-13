@@ -1,0 +1,228 @@
+INFO: [HLS 200-10] Running 'E:/Xilinx/Vitis_HLS/2022.1/bin/unwrapped/win64.o/vitis_hls.exe'
+INFO: [HLS 200-10] For user 'ShaneWu' on host 'laptop-r2gbpvnv' (Windows NT_amd64 version 6.2) on Sun Nov 13 19:19:21 +0800 2022
+INFO: [HLS 200-10] In directory 'C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris'
+Sourcing Tcl script 'C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/cosim.tcl'
+INFO: [HLS 200-1510] Running: source C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/cosim.tcl
+INFO: [HLS 200-1510] Running: open_project hls_harris_prj 
+INFO: [HLS 200-10] Opening project 'C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj'.
+INFO: [HLS 200-1510] Running: set_top harris 
+INFO: [HLS 200-1510] Running: add_files harris.cpp 
+INFO: [HLS 200-10] Adding design file 'harris.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files harris.h 
+INFO: [HLS 200-10] Adding design file 'harris.h' to the project
+INFO: [HLS 200-1510] Running: add_files -tb dst.txt 
+INFO: [HLS 200-10] Adding test bench file 'dst.txt' to the project
+INFO: [HLS 200-1510] Running: add_files -tb harris_test.cpp 
+INFO: [HLS 200-10] Adding test bench file 'harris_test.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb src.txt 
+INFO: [HLS 200-10] Adding test bench file 'src.txt' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution 'C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 6ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.1;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 6 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 6ns.
+INFO: [HLS 200-1510] Running: source ./hls_harris_prj/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: cosim_design 
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+   Build using "E:/Xilinx/Vitis_HLS/2022.1/tps/win64/msys64/mingw64/bin/g++"
+   Compiling harris.cpp_pre.cpp.tb.cpp
+   Compiling apatb_harris.cpp
+   Compiling harris_test.cpp_pre.cpp.tb.cpp
+   Compiling apatb_harris_ir.ll
+   Generating cosim.tv.exe
+INFO: [COSIM 212-302] Starting C TB testing ... 
+*******************************************
+PASS: The output matches the golden output!
+*******************************************
+55INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+
+C:\Users\ShaneWu\OneDrive\Desktop\Documents\NTU\HLS\labC\labC_Harris\hls_harris_prj\solution1\sim\verilog>set PATH= 
+
+C:\Users\ShaneWu\OneDrive\Desktop\Documents\NTU\HLS\labC\labC_Harris\hls_harris_prj\solution1\sim\verilog>call E:/Xilinx/Vivado/2022.1/bin/xelab xil_defaultlib.apatb_harris_top glbl -Oenable_linking_all_libraries  -prj harris.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm  -L floating_point_v7_0_20 -L floating_point_v7_1_14 --lib "ieee_proposed=./ieee_proposed" -s harris  
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_harris_top glbl -Oenable_linking_all_libraries -prj harris.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_0_20 -L floating_point_v7_1_14 --lib ieee_proposed=./ieee_proposed -s harris 
+Multi-threading is on. Using 14 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/AESL_automem_imgDst.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_imgDst
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/AESL_automem_imgSrc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_imgSrc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/AESL_deadlock_detection_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_detect_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/AESL_deadlock_detector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_detector
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/AESL_deadlock_report_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_report_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_harris_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_ashr_54ns_32ns_54_2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_ashr_54ns_32ns_54_2_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_entry_proc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_entry_proc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_fifo_w256_d16_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_fifo_w256_d16_A_ram
+INFO: [VRFC 10-311] analyzing module harris_fifo_w256_d16_A
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_fifo_w64_d5_S.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_fifo_w64_d5_S_shiftReg
+INFO: [VRFC 10-311] analyzing module harris_fifo_w64_d5_S
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_filter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_filterSingle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_filterSingle
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_filterSingle_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_filterSingle_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_filterSingle_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_filterSingle_2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_findCorner.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_findCorner
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2_rowBuffer_RAM_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2_rowBuffer_RAM_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_findCorner_Pipeline_VITIS_LOOP_452_9.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_findCorner_Pipeline_VITIS_LOOP_452_9
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_flow_control_loop_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_flow_control_loop_pipe
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_flow_control_loop_pipe_sequential_init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_flow_control_loop_pipe_sequential_init
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_mul_32s_21ns_52_5_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_mul_32s_21ns_52_5_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_mul_32s_32s_32_5_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_mul_32s_32s_32_5_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_read_input.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_read_input
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_response.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_response
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_response_Pipeline_VITIS_LOOP_325_1_VITIS_LOOP_326_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_response_Pipeline_VITIS_LOOP_325_1_VITIS_LOOP_326_2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_sobel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_sobel
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_sobel_rowBuffer_RAM_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_sobel_rowBuffer_RAM_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_start_for_filter_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_start_for_filter_U0_shiftReg
+INFO: [VRFC 10-311] analyzing module harris_start_for_filter_U0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_start_for_findCorner_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_start_for_findCorner_U0_shiftReg
+INFO: [VRFC 10-311] analyzing module harris_start_for_findCorner_U0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_start_for_response_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_start_for_response_U0_shiftReg
+INFO: [VRFC 10-311] analyzing module harris_start_for_response_U0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_start_for_sobel_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_start_for_sobel_U0_shiftReg
+INFO: [VRFC 10-311] analyzing module harris_start_for_sobel_U0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_start_for_write_result_U0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_start_for_write_result_U0_shiftReg
+INFO: [VRFC 10-311] analyzing module harris_start_for_write_result_U0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris_write_result.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module harris_write_result
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.harris_entry_proc
+Compiling module xil_defaultlib.harris_flow_control_loop_pipe
+Compiling module xil_defaultlib.harris_read_input
+Compiling module xil_defaultlib.harris_sobel_rowBuffer_RAM_AUTO_...
+Compiling module xil_defaultlib.harris_mul_32s_32s_32_5_1(NUM_ST...
+Compiling module xil_defaultlib.harris_sobel
+Compiling module xil_defaultlib.harris_filterSingle
+Compiling module xil_defaultlib.harris_filterSingle_1
+Compiling module xil_defaultlib.harris_filterSingle_2
+Compiling module xil_defaultlib.harris_filter
+Compiling module xil_defaultlib.harris_mul_32s_21ns_52_5_1(NUM_S...
+Compiling module xil_defaultlib.harris_flow_control_loop_pipe_se...
+Compiling module xil_defaultlib.harris_response_Pipeline_VITIS_L...
+Compiling module xil_defaultlib.harris_ashr_54ns_32ns_54_2_1(din...
+Compiling module xil_defaultlib.harris_response
+Compiling module xil_defaultlib.harris_findCorner_Pipeline_VITIS...
+Compiling module xil_defaultlib.harris_findCorner_Pipeline_VITIS...
+Compiling module xil_defaultlib.harris_findCorner_Pipeline_VITIS...
+Compiling module xil_defaultlib.harris_findCorner
+Compiling module xil_defaultlib.harris_write_result
+Compiling module xil_defaultlib.harris_fifo_w64_d5_S_shiftReg
+Compiling module xil_defaultlib.harris_fifo_w64_d5_S
+Compiling module xil_defaultlib.harris_fifo_w256_d16_A_ram
+Compiling module xil_defaultlib.harris_fifo_w256_d16_A
+Compiling module xil_defaultlib.harris_start_for_response_U0_shi...
+Compiling module xil_defaultlib.harris_start_for_response_U0
+Compiling module xil_defaultlib.harris_start_for_sobel_U0_shiftR...
+Compiling module xil_defaultlib.harris_start_for_sobel_U0
+Compiling module xil_defaultlib.harris_start_for_filter_U0_shift...
+Compiling module xil_defaultlib.harris_start_for_filter_U0
+Compiling module xil_defaultlib.harris_start_for_findCorner_U0_s...
+Compiling module xil_defaultlib.harris_start_for_findCorner_U0
+Compiling module xil_defaultlib.harris_start_for_write_result_U0...
+Compiling module xil_defaultlib.harris_start_for_write_result_U0
+Compiling module xil_defaultlib.harris
+Compiling module xil_defaultlib.AESL_automem_imgSrc
+Compiling module xil_defaultlib.AESL_automem_imgDst
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_report_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detector_1
+Compiling module xil_defaultlib.df_fifo_intf
+Compiling module xil_defaultlib.df_process_intf
+Compiling module xil_defaultlib.nodf_module_intf
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=1)
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_harris_top
+Compiling module work.glbl
+Built simulation snapshot harris
+
+****** xsim v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/harris/xsim_script.tcl
+# xsim {harris} -autoloadwcfg -tclbatch {harris.tcl}
+Time resolution is 1 ps
+source harris.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "117000"
+// RTL Simulation : 1 / 1 [100.00%] @ "13773000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 13809 ns : File "C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/harris.autotb.v" Line 385
+## quit
+INFO: [Common 17-206] Exiting xsim at Sun Nov 13 19:19:49 2022...
+INFO: [COSIM 212-316] Starting C post checking ...
+*******************************************
+PASS: The output matches the golden output!
+*******************************************
+53INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [COSIM 212-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.
+INFO: [HLS 200-111] Finished Command cosim_design CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 25.564 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-112] Total CPU user time: 5 seconds. Total CPU system time: 2 seconds. Total elapsed time: 28.286 seconds; peak allocated memory: 1.459 GB.

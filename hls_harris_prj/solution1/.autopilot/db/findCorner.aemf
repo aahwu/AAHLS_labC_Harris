@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1668338328061">
+  <ports id="1" name="RStream" type="PortType" coreId="1528853351" bitwidth="256" iftype="IfTypeRom">
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="2" name="outStream" type="PortType" coreId="1668304700" bitwidth="256" direction="DirOut" iftype="IfTypeRom">
+    <dataInputObjs>call</dataInputObjs>
+    <dataInputObjs>call</dataInputObjs>
+  </ports>
+  <edges id="27" source_obj="//@ports.0" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="28" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@ports.1"/>
+  <edges id="29" source_obj="//@blocks.0/@node_objs.4" sink_obj="//@ports.1"/>
+  <edges id="207" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="208" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@blocks.0/@node_objs.3"/>
+  <edges id="209" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="210" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="211" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@blocks.0/@node_objs.4"/>
+  <edges id="212" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@blocks.0/@node_objs.4"/>
+  <edges id="213" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@blocks.0/@node_objs.4"/>
+  <blocks id="18" name="findCorner" type="BlockType">
+    <node_objs xsi:type="cdfg:CdfgNode" id="12" name="empty" coreId="741487420" bitwidth="32" opcode="wait" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="13" name="_ln0" rtlName="grp_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2_fu_22" coreId="741553468" opcode="call" nodeLatency="1" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
+      <dataInputObjs>RStream</dataInputObjs>
+      <dataOutputObjs>outStream</dataOutputObjs>
+      <constName>findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="14" name="empty_53" coreId="741619004" bitwidth="32" opcode="wait" nodeLabel="2.0" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="15" name="empty_54" coreId="741619004" bitwidth="32" opcode="wait" nodeLabel="3.0" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="16" name="_ln0" rtlName="grp_findCorner_Pipeline_VITIS_LOOP_452_9_fu_30" coreId="741553468" opcode="call" nodeLabel="3.0" nodeLatency="1" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1">
+      <dataOutputObjs>outStream</dataOutputObjs>
+      <constName>findCorner_Pipeline_VITIS_LOOP_452_9</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="17" name="_ln0" coreId="741487420" opcode="ret" nodeLabel="4.0" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1"/>
+  </blocks>
+  <ScheduleInfo time="0"/>
+  <ScheduleInfo time="1"/>
+  <ScheduleInfo time="2"/>
+  <ScheduleInfo time="3"/>
+  <ScheduleInfo time="4"/>
+  <moduleNodes realName="grp_findCorner_Pipeline_VITIS_LOOP_375_1_VITIS_LOOP_376_2_fu_22">
+    <nodeIds>13</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_findCorner_Pipeline_VITIS_LOOP_452_9_fu_30">
+    <nodeIds>16</nodeIds>
+  </moduleNodes>
+  <ioPorts name="RStream">
+    <contents name="call">
+      <nodeIds>13</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="outStream">
+    <contents name="call">
+      <nodeIds>13</nodeIds>
+      <nodeIds>16</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="12" stage="1" latency="1"/>
+      <operations id="13" stage="2" latency="2"/>
+    </states>
+    <states id="2">
+      <operations id="13" stage="1" latency="2"/>
+    </states>
+    <states id="3">
+      <operations id="14" stage="1" latency="1"/>
+    </states>
+    <states id="4">
+      <operations id="15" stage="1" latency="1"/>
+      <operations id="16" stage="2" latency="2"/>
+    </states>
+    <states id="5">
+      <operations id="3" stage="1" latency="1"/>
+      <operations id="4" stage="1" latency="1"/>
+      <operations id="5" stage="1" latency="1"/>
+      <operations id="6" stage="1" latency="1"/>
+      <operations id="7" stage="1" latency="1"/>
+      <operations id="8" stage="1" latency="1"/>
+      <operations id="9" stage="1" latency="1"/>
+      <operations id="10" stage="1" latency="1"/>
+      <operations id="11" stage="1" latency="1"/>
+      <operations id="16" stage="1" latency="2"/>
+      <operations id="17" stage="1" latency="1"/>
+    </states>
+    <transitions inState="1" outState="2">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="2" outState="3">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="3" outState="4">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="4" outState="5">
+      <condition id="-1"/>
+    </transitions>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="findCorner" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1" mMinLatency="2204" mMaxLatency="2204">
+      <basicBlocks>18</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

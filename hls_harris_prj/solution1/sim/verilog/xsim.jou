@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# xsim v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Nov 13 19:19:46 2022
+# Process ID: 162372
+# Current directory: C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog
+# Command line: xsim.exe -mode tcl -source {xsim.dir/harris/xsim_script.tcl}
+# Log file: C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog/xsim.log
+# Journal file: C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labC/labC_Harris/hls_harris_prj/solution1/sim/verilog\xsim.jou
+# Running On: LAPTOP-R2GBPVNV, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 16539 MB
+#-----------------------------------------------------------
+source xsim.dir/harris/xsim_script.tcl
+source harris.tcl
